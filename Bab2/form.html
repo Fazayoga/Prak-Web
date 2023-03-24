@@ -20,7 +20,8 @@
                 </td>
                 <td widht="2%">:</td>
                 <td widht="83%"><input name="txtNama" 
-                    type="text" id="txtNama"></td>
+                    type="text" id="txtNama">
+                </td>
             </tr>
             <tr>
                 <td>Tgl Lahir</td>
@@ -51,9 +52,53 @@
                 <td>Pekerjaan</td>
                 <td>:</td>
                 <td><select name="cboJob" id="cboJob">
-                        <option value=""></option>
-
+                        <option>Tani</option>
+                        <option>Nelayan</option>
+                        <option>Karyawan</option>
                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input name=”radJk” type=”radio” 
+                    value=”1” checked> Laki-laki
+                    <input type="radio" name="radJk"
+                    value="2">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobby</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="cekReading" id="cekReading"
+                    value="1"> Reading
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><input type="checkbox" name="cekSing"
+                    id="cekSing" value=”3”>Singing
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="checkbox" name="cekTravel" 
+                    id="cekTravel" value=”4”>Traveling
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="submit" name="btnKirim"
+                    id="btnKirim" value="Kirim">
+                    <input type="reset" name="btnCancel" 
+                    id="btnCancel" value="Cancel">
                 </td>
             </tr>
         </table>
